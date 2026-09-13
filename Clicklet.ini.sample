@@ -1,4 +1,4 @@
-; Copy next to Clicklet.exe as Clicklet.ini. See README.md for all options.
+; Clicklet settings. Docs: https://github.com/tabakman/clicklet
 
 [Mapping]
 ;Button4=ctrl+c
