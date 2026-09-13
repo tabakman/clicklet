@@ -1,0 +1,5 @@
+; Copy next to Clicklet.exe as Clicklet.ini. See README.md for all options.
+
+[Mapping]
+;Button4=ctrl+c
+Button5=ctrl+enter

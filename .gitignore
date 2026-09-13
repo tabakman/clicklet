@@ -1,0 +1,37 @@
+# MSVC / MSBuild build output. The compiled executable is deliberately not tracked:
+# the repo stays source-only and the binary is taken from the build output path.
+
+build/
+.vs/
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ipch/
+
+*.exe
+*.dll
+*.lib
+*.exp
+*.obj
+*.res
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.iobj
+*.ipdb
+*.tlog
+*.log
+*.lastbuildstate
+*.recipe
+*.aps
+
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb

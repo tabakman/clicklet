@@ -1,2 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Binary design assets. `binary` is git's built-in macro for `-text -diff`: never line-ending
+# normalised on check-in or checkout, and never diffed as text. These rules are explicit rather
+# than left to git's content heuristic, which is a guess and can be wrong on a small file.
+*.ico binary
+*.png binary
+*.bmp binary
+
+# SVG is genuine text (XML), so it is normalised and diffed like any other source file.
+*.svg text
